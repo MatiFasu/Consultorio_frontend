@@ -1,0 +1,27 @@
+/* Estilos para el modal */
+.modal {
+    display: none; /* Inicialmente oculto */
+    position: fixed; /* Posición fija */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+}
+
+.modal-content {
+    background-color: #fefefe; /* Fondo blanco */
+    margin: 15% auto; /* Centrado verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ancho del modal */
+}
+
+/* Estilos para el botón de abrir el modal */
+.open-modal-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
